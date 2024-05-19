@@ -21,6 +21,7 @@ region_map = {
 
 # Inicialização do Dash
 app = dash.Dash(__name__)
+server = app.server 
 
 # Layout do app
 app.layout = html.Div([
